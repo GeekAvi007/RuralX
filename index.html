@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RuralX</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="scrip.js"></script>
+    <title>Farm-Sentinel</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -26,7 +28,7 @@
     <nav>
       <div class="container main-nav flex">
         <a href="#" class="company-logo">
-          <img src="./FarmAssets/1696748809205-removebg-preview.png" alt="company logo" />
+          <img src="./FarmAssets/fslogo.png" alt="company logo" />
         </a>
 
         <div class="nav-links">
@@ -35,8 +37,9 @@
             <li><a href="#" class="hover-links">Logistics</a></li>
             <li><a href="#" class="hover-links">Detection</a></li>
             <li><a href="#" class="hover-links">IVR</a></li>
-            <li><a href="#" class="hover-links secondary-button">Farmer</a></li>
-            <li><a href="#" class="hover-links primary-button">Admin</a></li>
+            <a href="login.html" class="hover-links secondary-button">Farmer</a>
+            <a href="login.html" class="hover-links primary-button">Admin</a>
+            
           </ul>
         </div>
       </div>
@@ -45,8 +48,11 @@
       <div class="container header-section flex">
         <div class="header-left">
             <h1>Farm Efficiently</h1>
-            <p>RuralX revolutionizes the way farming challenges are addressed, allowing farmers to report issues, seek assistance, and recover from natural disasters. </p>
-            <a href="#"class="primary-button get-started-btn">Get Started</a>
+            <p>Farm-Sentinel revolutionizes the way farming challenges are addressed, allowing farmers to increase efficiency, enhance security and precisely manage resources </p>
+            <a href="#"class="primary-button get-started-btn">Dashboard</a>
+            <a href="report.html" class="hover-links secondary-button">Report</a>
+
+
         </div>
         <div class="header-right">
             <img src="./FarmAssets/heto2.png" alt="hero image">
@@ -78,9 +84,9 @@
               </div>
               <div class="features-card flex">
                   <img src ="./FarmAssets/Cropmanag.jpeg" class="cropm" alt="">
-                  <h3>Crop Management</h3>
-                  <p>Used to track yield, granary activities, and 
-                    cold storage usage in order to analyze overall trends.</p>
+                  <h3>Soil Monitoring</h3>
+                  <p>Used to track soil moisture, humous, and 
+                    nutrition storage usage in order to analyze overall field.</p>
                   <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
               </div>
               <div class="features-card flex">
@@ -160,27 +166,27 @@
   <div class="container">
     <div class="example-header flex">
       <h2 class="example-heading-text">One platform, endless possibilities</h2>
-      <a href="#" class="secondary-button">See more examples <i class="fa-solid fa-right-long"></i></a>
+      <a href="#" class="secondary-button">Our Sneekpeeks <i class="fa-solid fa-right-long"></i></a>
     </div>
     <div class="example-area flex">
       <div class="example-card amore">
         <a class="examples-card "href="#">
-          <h3 class="card-text">Can user complete a task in my software interface?</h3>
+          <h3 class="card-text">Robust Chained Bot for In-field Crop survilience</h3>
         </a>
       </div>
       <div class="example-card mio">
         <a href="#" class="examples-card">
-          <h3 class="card-text">Can users find important pages on my website?</h3>
+          <h3 class="card-text">Application for Tracking, Alerts & Monitoring</h3>
         </a>
       </div>
       <div class="example-card paramount">
           <a href="#" class="examples-card">
-            <h3 class="card-text">Is my website's intended objective clear?</h3>
+            <h3 class="card-text">Drone for Aerial Monitoring and intruder detection</h3>
           </a>
         </div>
         <div class="example-card baskin">
           <a href="#" class="examples-card">
-            <h3 class="card-text">Do visitors understand what a page is about?</h3>
+            <h3 class="card-text">Real-Time Disease Detection through Bot-Cam</h3>
           </a>
         </div>
   </div>
@@ -188,7 +194,7 @@
   <section class="cta-section">
     <div class="container flex cta-section-container">
       <h2>Join the most Centralized , End-to-End platform</h2>
-      <p>See why RuralX has intended To revolutionize 100 Million+ farmers and 350+ Tonnes of Yield for the Best</p>
+      <p>See why Farm-Sentinel has intended To revolutionize 100 Million+ farmers and 350+ Tonnes of Yield for the Best</p>
       <a href="#" class="primary-button ">Get Started </a>
     </div>
   </section>
@@ -196,13 +202,13 @@
   <footer>
       <div class="container flex footer-container">
           <a href="#" class="company-logo">
-              <img src="./FarmAssets/1696748809205-removebg-preview.png" alt="company logo">
+              <img src="./FarmAssets/fslogo.png" alt="company logo">
           </a>
           <div class="link-column flex">
               <h4>Product</h4>
               <a href="#" class="hover-link">Overview</a>
               <a href="#" class="hover-link">Pricing</a>
-              <a href="#" class="hover-link">RuralX</a>
+              <a href="#" class="hover-link">Farm-Sentinel</a>
               <a href="#" class="hover-link">Customers Page</a>
               <a href="#" class="hover-link">Status Page</a>
           </div>
@@ -211,14 +217,14 @@
               <a href="#" class="hover-link">Overview</a>
               <a href="#" class="hover-link">Pricing</a>
               <a href="#" class="hover-link">Usability Hub</a>
-              <a href="#" class="hover-link">RuralX</a>
+              <a href="#" class="hover-link">Farm-Sentinel</a>
               <a href="#" class="hover-link">Status Page</a>
           </div>
           <div class="link-column flex">
               <h4>Resources</h4>
               <a href="#" class="hover-link">Overview</a>
               <a href="#" class="hover-link">Pricing</a>
-              <a href="#" class="hover-link">RuralX</a>
+              <a href="#" class="hover-link">Farm-Sentinel</a>
               <a href="#" class="hover-link">Customers Page</a>
               <a href="#" class="hover-link">Status Page</a>
           </div>

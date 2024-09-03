@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a smooth font and background color */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container for centering the content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 2.5em;
+    color: #007b5e;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the report content */
+  #report-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #007b5e;
+    background-color: #f0f0f5;
+    border-radius: 5px;
+  }
+  
+  /* Style for buttons */
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px 0 0;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007b5e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f4a;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    #report-content p {
+      font-size: 1em;
+    }
+  
+    button {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  

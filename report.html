@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="report.js"></script>
+    <title>Crop Disease Report</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/166d5bd4b0.js"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="report.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crop Disease Report</h1>
+      <div id="report-content">
+        <p><strong>Disease:</strong> Example Disease</p>
+        <p><strong>Remedy:</strong> Example Remedy</p>
+        <p><strong>Date:</strong> 2024-09-03</p>
+        <div class="image-container">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNwn8LQNlOZTjrym96DqlofkKmsscOib7Kg&s" alt="Example Disease Image" />
+          <p class="image-caption">Example Disease Affecting Crops</p>
+        </div>
+      </div>
+      <button onclick="generatePDF()">Download PDF</button>
+      <button onclick="printReport()">Print Report</button>
+    </div>
+  </body>
+</html>

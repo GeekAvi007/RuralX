@@ -64,14 +64,13 @@ ul {
   align-items: center;
 }
 
-/* Corrected hover effect */
 .hover-links {
   color: var(--primary-text-color);
   transition: 0.2s ease-out;
 }
 
 .hover-links:hover {
-  color: var(--accent-color); /* Changed to use --accent-color */
+  color: var(--accent-color); 
 }
 .primary-button{
     background-color: var(--accent-color);
@@ -247,9 +246,9 @@ header{
 }
 .amore, .mio, .paramount, .baskin {
     background: black;
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/orange.jpeg);
-    background-size: 100% 100%; /* Make the image cover the entire container */
-    height: 300px; /* You can adjust the height as needed */
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/tank.jpeg);
+    background-size: 100% 100%; 
+    height: 300px; 
 }
 
 .mio {
@@ -257,11 +256,11 @@ header{
 }
 
 .paramount {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/trac.jpeg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/drone.jpeg);
 }
 
 .baskin {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/vissit.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./FarmAssets/detect.jpeg);
 }
 
 .card-text{
